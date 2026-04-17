@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		731FF91B70BCEE6DC010B5F8 /* AccessibilitySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98430CED7CE40E5EA3C168C /* AccessibilitySettingsView.swift */; };
+		85F4E5D6A07F4C2E680387AD /* FontScaleKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58773D55E6BE94DF2E2BBAA /* FontScaleKey.swift */; };
+		A77479FCA198319434D2A666 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2FDA18D5EDAC20CCD95C77 /* SpeechManager.swift */; };
+		AA000001 /* BioBridgeLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000001 /* BioBridgeLabApp.swift */; };
+		AA000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000002 /* ContentView.swift */; };
+		AA000003 /* LabHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000003 /* LabHubView.swift */; };
+		AA000004 /* LabProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000004 /* LabProgressView.swift */; };
+		AA000005 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000005 /* AnimatedButton.swift */; };
+		AA000006 /* DNAHelixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000006 /* DNAHelixView.swift */; };
+		AA000007 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000007 /* GradientBackground.swift */; };
+		AA000008 /* InstructionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000008 /* InstructionCard.swift */; };
+		AA000009 /* MoleculeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000009 /* MoleculeView.swift */; };
+		AA000010 /* ParticleEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000010 /* ParticleEmitterView.swift */; };
+		AA000011 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000011 /* ProgressBarView.swift */; };
+		AA000012 /* AnimationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000012 /* AnimationConstants.swift */; };
+		AA000013 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000013 /* Colors.swift */; };
+		AA000014 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000014 /* Typography.swift */; };
+		AA000015 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000015 /* AppState.swift */; };
+		AA000016 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000016 /* HapticManager.swift */; };
+		AA000030 /* MolecularStructureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000030 /* MolecularStructureData.swift */; };
+		AA000031 /* ExplorerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000031 /* ExplorerState.swift */; };
+		AA000032 /* MolecularExplorerModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000032 /* MolecularExplorerModuleView.swift */; };
+		AA000033 /* MoleculePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000033 /* MoleculePickerView.swift */; };
+		AA000034 /* ExplorerCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000034 /* ExplorerCompletionView.swift */; };
+		AA000035 /* IsometricSceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000035 /* IsometricSceneBuilder.swift */; };
+		AA000036 /* DNAHelixSceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000036 /* DNAHelixSceneBuilder.swift */; };
+		AA000037 /* ProteinStructureSceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000037 /* ProteinStructureSceneBuilder.swift */; };
+		AA000038 /* MonumentMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000038 /* MonumentMaterials.swift */; };
+		AA000039 /* CharacterNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000039 /* CharacterNode.swift */; };
+		AA000040 /* PathfindingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000040 /* PathfindingEngine.swift */; };
+		AA000041 /* ExplorerSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000041 /* ExplorerSceneView.swift */; };
+		AA000042 /* GuidedModeOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000042 /* GuidedModeOverlay.swift */; };
+		AA000043 /* FreeModeOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000043 /* FreeModeOverlay.swift */; };
+		AA000044 /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000044 /* InfoCardView.swift */; };
+		AA000045 /* DNAEducationalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000045 /* DNAEducationalContent.swift */; };
+		AA000046 /* ProteinEducationalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000046 /* ProteinEducationalContent.swift */; };
+		AA000047 /* DidYouKnowPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000047 /* DidYouKnowPopup.swift */; };
+		AA000048 /* CellMembraneEducationalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000048 /* CellMembraneEducationalContent.swift */; };
+		AA000049 /* ATPEducationalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000049 /* ATPEducationalContent.swift */; };
+		AA000050 /* HemoglobinEducationalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000050 /* HemoglobinEducationalContent.swift */; };
+		AA000051 /* WaterMoleculeEducationalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000051 /* WaterMoleculeEducationalContent.swift */; };
+		AA000052 /* GlucoseEducationalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000052 /* GlucoseEducationalContent.swift */; };
+		AA000053 /* SimpleMoleculeSceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000053 /* SimpleMoleculeSceneBuilder.swift */; };
+		AA000054 /* ExplorerHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000054 /* ExplorerHomeView.swift */; };
+		AA000055 /* MoleculeJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000055 /* MoleculeJournalView.swift */; };
+		AA000056 /* FloatingMoleculeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000056 /* FloatingMoleculeBackground.swift */; };
+		AA000057 /* AccessibilityWelcomeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000057 /* AccessibilityWelcomeSheet.swift */; };
+		AA000058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB000058 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A58773D55E6BE94DF2E2BBAA /* FontScaleKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontScaleKey.swift; path = Accessibility/FontScaleKey.swift; sourceTree = "<group>"; };
+		AAPP0001 /* BioBridgeLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioBridgeLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB000001 /* BioBridgeLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBridgeLabApp.swift; sourceTree = "<group>"; };
+		AB000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB000003 /* LabHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabHubView.swift; sourceTree = "<group>"; };
+		AB000004 /* LabProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabProgressView.swift; sourceTree = "<group>"; };
+		AB000005 /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		AB000006 /* DNAHelixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAHelixView.swift; sourceTree = "<group>"; };
+		AB000007 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		AB000008 /* InstructionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionCard.swift; sourceTree = "<group>"; };
+		AB000009 /* MoleculeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoleculeView.swift; sourceTree = "<group>"; };
+		AB000010 /* ParticleEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEmitterView.swift; sourceTree = "<group>"; };
+		AB000011 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		AB000012 /* AnimationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationConstants.swift; sourceTree = "<group>"; };
+		AB000013 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AB000014 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		AB000015 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AB000016 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		AB000029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB000058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB000030 /* MolecularStructureData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolecularStructureData.swift; sourceTree = "<group>"; };
+		AB000031 /* ExplorerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerState.swift; sourceTree = "<group>"; };
+		AB000032 /* MolecularExplorerModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolecularExplorerModuleView.swift; sourceTree = "<group>"; };
+		AB000033 /* MoleculePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoleculePickerView.swift; sourceTree = "<group>"; };
+		AB000034 /* ExplorerCompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerCompletionView.swift; sourceTree = "<group>"; };
+		AB000035 /* IsometricSceneBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsometricSceneBuilder.swift; sourceTree = "<group>"; };
+		AB000036 /* DNAHelixSceneBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAHelixSceneBuilder.swift; sourceTree = "<group>"; };
+		AB000037 /* ProteinStructureSceneBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinStructureSceneBuilder.swift; sourceTree = "<group>"; };
+		AB000038 /* MonumentMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentMaterials.swift; sourceTree = "<group>"; };
+		AB000039 /* CharacterNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterNode.swift; sourceTree = "<group>"; };
+		AB000040 /* PathfindingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathfindingEngine.swift; sourceTree = "<group>"; };
+		AB000041 /* ExplorerSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerSceneView.swift; sourceTree = "<group>"; };
+		AB000042 /* GuidedModeOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedModeOverlay.swift; sourceTree = "<group>"; };
+		AB000043 /* FreeModeOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeModeOverlay.swift; sourceTree = "<group>"; };
+		AB000044 /* InfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
+		AB000045 /* DNAEducationalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAEducationalContent.swift; sourceTree = "<group>"; };
+		AB000046 /* ProteinEducationalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinEducationalContent.swift; sourceTree = "<group>"; };
+		AB000047 /* DidYouKnowPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidYouKnowPopup.swift; sourceTree = "<group>"; };
+		AB000048 /* CellMembraneEducationalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMembraneEducationalContent.swift; sourceTree = "<group>"; };
+		AB000049 /* ATPEducationalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATPEducationalContent.swift; sourceTree = "<group>"; };
+		AB000050 /* HemoglobinEducationalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemoglobinEducationalContent.swift; sourceTree = "<group>"; };
+		AB000051 /* WaterMoleculeEducationalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMoleculeEducationalContent.swift; sourceTree = "<group>"; };
+		AB000052 /* GlucoseEducationalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseEducationalContent.swift; sourceTree = "<group>"; };
+		AB000053 /* SimpleMoleculeSceneBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMoleculeSceneBuilder.swift; sourceTree = "<group>"; };
+		AB000054 /* ExplorerHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerHomeView.swift; sourceTree = "<group>"; };
+		AB000055 /* MoleculeJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoleculeJournalView.swift; sourceTree = "<group>"; };
+		AB000056 /* FloatingMoleculeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMoleculeBackground.swift; sourceTree = "<group>"; };
+		AB000057 /* AccessibilityWelcomeSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessibilityWelcomeSheet.swift; path = Accessibility/AccessibilityWelcomeSheet.swift; sourceTree = "<group>"; };
+		AC2FDA18D5EDAC20CCD95C77 /* SpeechManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechManager.swift; path = Accessibility/SpeechManager.swift; sourceTree = "<group>"; };
+		C98430CED7CE40E5EA3C168C /* AccessibilitySettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessibilitySettingsView.swift; path = Accessibility/AccessibilitySettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AC8DDBAE26F9F082C5BB8BD5 /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				A58773D55E6BE94DF2E2BBAA /* FontScaleKey.swift */,
+				AC2FDA18D5EDAC20CCD95C77 /* SpeechManager.swift */,
+				C98430CED7CE40E5EA3C168C /* AccessibilitySettingsView.swift */,
+				AB000057 /* AccessibilityWelcomeSheet.swift */,
+			);
+			name = Accessibility;
+			sourceTree = "<group>";
+		};
+		ACGRP0001 /* BioBridgeLab */ = {
+			isa = PBXGroup;
+			children = (
+				AB000001 /* BioBridgeLabApp.swift */,
+				AB000029 /* Info.plist */,
+				AB000058 /* Assets.xcassets */,
+				ACGRP0002 /* Views */,
+				ACGRP0003 /* Components */,
+				ACGRP0004 /* DesignSystem */,
+				ACGRP0005 /* Models */,
+				ACGRP0006 /* Modules */,
+				AC8DDBAE26F9F082C5BB8BD5 /* Accessibility */,
+			);
+			path = BioBridgeLab;
+			sourceTree = "<group>";
+		};
+		ACGRP0002 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB000002 /* ContentView.swift */,
+				AB000054 /* ExplorerHomeView.swift */,
+				AB000003 /* LabHubView.swift */,
+				AB000004 /* LabProgressView.swift */,
+				AB000055 /* MoleculeJournalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACGRP0003 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AB000005 /* AnimatedButton.swift */,
+				AB000006 /* DNAHelixView.swift */,
+				AB000047 /* DidYouKnowPopup.swift */,
+				AB000007 /* GradientBackground.swift */,
+				AB000008 /* InstructionCard.swift */,
+				AB000009 /* MoleculeView.swift */,
+				AB000010 /* ParticleEmitterView.swift */,
+				AB000011 /* ProgressBarView.swift */,
+				AB000056 /* FloatingMoleculeBackground.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ACGRP0004 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				AB000012 /* AnimationConstants.swift */,
+				AB000013 /* Colors.swift */,
+				AB000014 /* Typography.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		ACGRP0005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB000015 /* AppState.swift */,
+				AB000016 /* HapticManager.swift */,
+				AB000030 /* MolecularStructureData.swift */,
+				AB000031 /* ExplorerState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACGRP0006 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ACGRP0010 /* MolecularExplorer */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		ACGRP0010 /* MolecularExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				AB000032 /* MolecularExplorerModuleView.swift */,
+				AB000033 /* MoleculePickerView.swift */,
+				AB000034 /* ExplorerCompletionView.swift */,
+				ACGRP0011 /* SceneKit */,
+				ACGRP0012 /* Views */,
+				ACGRP0013 /* Data */,
+			);
+			path = MolecularExplorer;
+			sourceTree = "<group>";
+		};
+		ACGRP0011 /* SceneKit */ = {
+			isa = PBXGroup;
+			children = (
+				AB000035 /* IsometricSceneBuilder.swift */,
+				AB000036 /* DNAHelixSceneBuilder.swift */,
+				AB000037 /* ProteinStructureSceneBuilder.swift */,
+				AB000053 /* SimpleMoleculeSceneBuilder.swift */,
+				AB000038 /* MonumentMaterials.swift */,
+				AB000039 /* CharacterNode.swift */,
+				AB000040 /* PathfindingEngine.swift */,
+			);
+			path = SceneKit;
+			sourceTree = "<group>";
+		};
+		ACGRP0012 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB000041 /* ExplorerSceneView.swift */,
+				AB000042 /* GuidedModeOverlay.swift */,
+				AB000043 /* FreeModeOverlay.swift */,
+				AB000044 /* InfoCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACGRP0013 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AB000049 /* ATPEducationalContent.swift */,
+				AB000048 /* CellMembraneEducationalContent.swift */,
+				AB000045 /* DNAEducationalContent.swift */,
+				AB000052 /* GlucoseEducationalContent.swift */,
+				AB000050 /* HemoglobinEducationalContent.swift */,
+				AB000046 /* ProteinEducationalContent.swift */,
+				AB000051 /* WaterMoleculeEducationalContent.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ACPROD001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAPP0001 /* BioBridgeLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACROOT001 = {
+			isa = PBXGroup;
+			children = (
+				ACGRP0001 /* BioBridgeLab */,
+				ACPROD001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ATGT0001 /* BioBridgeLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCL0001 /* Build configuration list for PBXNativeTarget "BioBridgeLab" */;
+			buildPhases = (
+				APHASE001 /* Sources */,
+				APHASE002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioBridgeLab;
+			productName = BioBridgeLab;
+			productReference = AAPP0001 /* BioBridgeLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		APRJ0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					ATGT0001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = ABCL0002 /* Build configuration list for PBXProject "BioBridgeLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACROOT001;
+			productRefGroup = ACPROD001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ATGT0001 /* BioBridgeLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		APHASE002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000058 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		APHASE001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* BioBridgeLabApp.swift in Sources */,
+				AA000002 /* ContentView.swift in Sources */,
+				AA000003 /* LabHubView.swift in Sources */,
+				AA000004 /* LabProgressView.swift in Sources */,
+				AA000005 /* AnimatedButton.swift in Sources */,
+				AA000006 /* DNAHelixView.swift in Sources */,
+				AA000007 /* GradientBackground.swift in Sources */,
+				AA000008 /* InstructionCard.swift in Sources */,
+				AA000009 /* MoleculeView.swift in Sources */,
+				AA000010 /* ParticleEmitterView.swift in Sources */,
+				AA000011 /* ProgressBarView.swift in Sources */,
+				AA000056 /* FloatingMoleculeBackground.swift in Sources */,
+				AA000012 /* AnimationConstants.swift in Sources */,
+				AA000013 /* Colors.swift in Sources */,
+				AA000014 /* Typography.swift in Sources */,
+				AA000015 /* AppState.swift in Sources */,
+				AA000016 /* HapticManager.swift in Sources */,
+					AA000030 /* MolecularStructureData.swift in Sources */,
+				AA000031 /* ExplorerState.swift in Sources */,
+				AA000032 /* MolecularExplorerModuleView.swift in Sources */,
+				AA000033 /* MoleculePickerView.swift in Sources */,
+				AA000034 /* ExplorerCompletionView.swift in Sources */,
+				AA000035 /* IsometricSceneBuilder.swift in Sources */,
+				AA000036 /* DNAHelixSceneBuilder.swift in Sources */,
+				AA000037 /* ProteinStructureSceneBuilder.swift in Sources */,
+				AA000038 /* MonumentMaterials.swift in Sources */,
+				AA000039 /* CharacterNode.swift in Sources */,
+				AA000040 /* PathfindingEngine.swift in Sources */,
+				AA000041 /* ExplorerSceneView.swift in Sources */,
+				AA000042 /* GuidedModeOverlay.swift in Sources */,
+				AA000043 /* FreeModeOverlay.swift in Sources */,
+				AA000044 /* InfoCardView.swift in Sources */,
+				AA000045 /* DNAEducationalContent.swift in Sources */,
+				AA000046 /* ProteinEducationalContent.swift in Sources */,
+				AA000047 /* DidYouKnowPopup.swift in Sources */,
+				AA000048 /* CellMembraneEducationalContent.swift in Sources */,
+				AA000049 /* ATPEducationalContent.swift in Sources */,
+				AA000050 /* HemoglobinEducationalContent.swift in Sources */,
+				AA000051 /* WaterMoleculeEducationalContent.swift in Sources */,
+				AA000052 /* GlucoseEducationalContent.swift in Sources */,
+				AA000053 /* SimpleMoleculeSceneBuilder.swift in Sources */,
+				AA000054 /* ExplorerHomeView.swift in Sources */,
+				AA000055 /* MoleculeJournalView.swift in Sources */,
+				85F4E5D6A07F4C2E680387AD /* FontScaleKey.swift in Sources */,
+				A77479FCA198319434D2A666 /* SpeechManager.swift in Sources */,
+				731FF91B70BCEE6DC010B5F8 /* AccessibilitySettingsView.swift in Sources */,
+				AA000057 /* AccessibilityWelcomeSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABCF0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6N239V8VV5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABCF0002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6N239V8VV5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABCF0003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6N239V8VV5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BioBridgeLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonfang.BioBridgeLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABCF0004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6N239V8VV5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BioBridgeLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonfang.BioBridgeLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCL0001 /* Build configuration list for PBXNativeTarget "BioBridgeLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCF0003 /* Debug */,
+				ABCF0004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCL0002 /* Build configuration list for PBXProject "BioBridgeLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCF0001 /* Debug */,
+				ABCF0002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = APRJ0001 /* Project object */;
+}
